@@ -16,14 +16,16 @@
     </div>
     <div class="d-flex justify-content-center m-2">
       <div class="col-6  col-sm-3 ">
-        <router-link :to="{ path: 'info' }" >
+        <router-link :to="{ path: 'map' }" >
           <button type="button" class="btn btn-outline-primary btn-block btn-lg">交通資訊</button>
         </router-link>
       </div>
     </div>
     <div class="d-flex justify-content-center m-2">
       <div class="col-6  col-sm-3 ">
-        <button type="button" class="btn btn-outline-primary btn-block btn-lg">婚紗影片</button>
+        <router-link :to="{ path: 'photo' }" >
+          <button type="button" class="btn btn-outline-primary btn-block btn-lg">婚紗照片</button>
+        </router-link>
       </div>
     </div>
     <div class="d-flex justify-content-center m-2">
@@ -54,10 +56,12 @@ export default {
 <style scoped>
 h1{
   text-align: center;
+  color: #81D8D0;
 }
 .main{
   /* background-color: aquamarine; */
-  background: url("http://img01.tooopen.com/downs/images/2011/3/28/sy_20110328143553394751.jpg") no-repeat center center;
+  /* background: url("http://img01.tooopen.com/downs/images/2011/3/28/sy_20110328143553394751.jpg") no-repeat center center; */
+  background: url('../assets/gate.jpg') no-repeat center center;
   background-size:650px 800px;
   height: 700px;
 }

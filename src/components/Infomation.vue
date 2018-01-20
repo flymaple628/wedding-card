@@ -3,7 +3,7 @@
   <nav-icons></nav-icons>
   <div class="container">
 
-    <div class="row title">
+    <div class="row story">
       <div class="col-12">
         <p>
           那一年，我們偶然相遇
@@ -27,18 +27,22 @@
 
 
 Hank與Carol敬邀
-
-
-
-日期：2018年12月24日
-
-時間：晚上6時30分
-
-地點：台北晶華酒店宴會廳
-
-地址：台北市中山北路二段41號
-
-電話：(02)2523-8000
+        </p>
+        <p>
+          <br>
+        日期：2018年03月24日
+        </p>
+        <p>
+        時間：12:00
+        </p>
+        <p>
+        地點：富盈囍宴會館
+        </p>
+        <p>
+        地址：屏東市和平路422號
+        </p>
+        <p>
+        電話：:08-7341199
         </p>
       </div>
     </div>
@@ -64,8 +68,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1{
+p{
   text-align: center;
+  font-size: 22px;
+  color: rgb(49, 49, 49);
 }
 .main{
   /* background-color: aquamarine; */
@@ -80,5 +86,19 @@ h1{
 .title{
   padding-top:220px;
   padding-bottom: 20px;
+}
+.story{
+  padding-top:100px;
+  padding-bottom: 20px;
+  margin-left:25%;
+  margin-right:25%;
+}
+@media screen and (max-width: 480px) {
+  .story{
+    padding-top:100px;
+    padding-bottom: 20px;
+    margin-left:0%;
+    margin-right:0%;
+  }
 }
 </style>

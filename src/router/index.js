@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Main from '@/components/Main'
 import MainPhoto from '@/components/MainPhoto'
 import MainList from '@/components/MainList'
 import Infomation from '@/components/Infomation'
@@ -13,10 +13,11 @@ Vue.component('nav-icons', NavIcons)
 Vue.use(Router)
     /* eslint-disable */
 export default new Router({
+    mode: 'history',
     routes: [{
-            path: '/hello',
-            name: 'HelloWorld',
-            component: HelloWorld
+            path: '/',
+            name: 'Main',
+            component: Main
         },
         {
             path: '/photo',
