@@ -4,13 +4,13 @@
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="http://fakeimg.pl/800x700/" alt="First slide">
+      <img class="d-block w-100 img-fluid" src="http://aaronwalk.com/wp-content/uploads/2018/02/marrypic1.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="http://fakeimg.pl/800x700/" alt="Second slide">
+      <img class="d-block w-100 img-fluid" src="http://aaronwalk.com/wp-content/uploads/2018/02/marrypic15.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="http://fakeimg.pl/800x700/" alt="Third slide">
+      <img class="d-block w-100 img-fluid" src="http://aaronwalk.com/wp-content/uploads/2018/02/marrypic8.jpg" alt="First slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -42,5 +42,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+#carouselExampleIndicators{
+  margin: 0 auto;
+  max-width:800px;
+}
+img{
+  width:50%;
+}
 </style>

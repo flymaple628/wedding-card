@@ -6,27 +6,7 @@
     <div class="row story">
       <div class="col-12">
         <p>
-          那一年，我們偶然相遇
-
-沒想到世界這麼大
-
-兩顆小小的心從此被繫在一起
-
-我們看到彼此的好
-
-也看到彼此對自己的重要
-
-在這個美麗的日子
-
-我們決定讓幸福延續
-
-期望快樂回憶裡
-
-有您的祝福與參與
-
-
-
-Hank與Carol敬邀
+          經過多年的愛情長跑，我們要結婚摟！
         </p>
         <p>
           <br>
@@ -71,7 +51,7 @@ export default {
 p{
   text-align: center;
   font-size: 22px;
-  color: rgb(49, 49, 49);
+  color: #666;
 }
 .main{
   /* background-color: aquamarine; */

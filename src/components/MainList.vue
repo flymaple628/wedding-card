@@ -28,11 +28,11 @@
         </router-link>
       </div>
     </div>
-    <div class="d-flex justify-content-center m-2">
+    <!-- <div class="d-flex justify-content-center m-2">
       <div class="col-6  col-sm-3 ">
         <button type="button" class="btn btn-outline-primary btn-block btn-lg">幸福留言</button>
       </div>
-    </div>
+    </div> -->
   </div>
 </div>
 </template>
