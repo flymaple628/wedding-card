@@ -61,7 +61,7 @@ h1{
 .main{
   /* background-color: aquamarine; */
   /* background: url("http://img01.tooopen.com/downs/images/2011/3/28/sy_20110328143553394751.jpg") no-repeat center center; */
-  background: url('../assets/gate.jpg') no-repeat center center;
+  background: url('../assets/gate.png') no-repeat center center;
   background-size:650px 800px;
   height: 700px;
 }

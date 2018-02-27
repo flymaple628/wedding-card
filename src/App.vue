@@ -27,4 +27,7 @@ a,a:hover{
 .btn-primary:hover{
   background-color: rgb(100, 168, 161);
 }
+body{
+  background-color: #f3efca;
+}
 </style>

@@ -55,7 +55,7 @@ p{
 }
 .main{
   /* background-color: aquamarine; */
-  background: url("http://pic.qiantucdn.com/58pic/27/68/69/94m58PICUjA.jpg!/fw/300/clip/0x400a0a0") no-repeat center center;
+  background: url('../assets/paper.png') no-repeat center center;
   background-size:650px 800px;
   height: 800px;
 }
